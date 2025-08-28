@@ -11,20 +11,9 @@ import { WagmiProvider } from "wagmi";
 import { Footer } from "~~/components/Footer";
 import { Header } from "~~/components/Header";
 import { BlockieAvatar } from "~~/components/scaffold-eth";
-import { useInitializeNativeCurrencyPrice, useTargetNetwork } from "~~/hooks/scaffold-eth";
 import { wagmiConfig } from "~~/services/web3/wagmiConfig";
-import { arbitrumNitro, initBurnerPK } from "~~/utils/scaffold-stylus";
 
 const ScaffoldEthApp = ({ children }: { children: React.ReactNode }) => {
-  useInitializeNativeCurrencyPrice();
-  const { targetNetwork } = useTargetNetwork();
-
-  useEffect(() => {
-    if (targetNetwork.id === arbitrumNitro.id) {
-      initBurnerPK();
-    }
-  }, [targetNetwork]);
-
   return (
     <>
       <div className="flex flex-col min-h-screen">

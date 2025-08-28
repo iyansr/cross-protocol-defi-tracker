@@ -14,6 +14,10 @@
     "vercel:yolo": "vercel --build-env NEXT_PUBLIC_IGNORE_BUILD_ERROR=true"
   },
   "dependencies": {
+    "@aave/client": "^0.4.0",
+    "@aave/contract-helpers": "^1.36.1",
+    "@aave/math-utils": "^1.36.1",
+    "@bgd-labs/aave-address-book": "^4.28.2",
     "@ethersproject/providers": "^5.7.2",
     "@heroicons/react": "^2.1.5",
     "@rainbow-me/rainbowkit": "2.2.7",

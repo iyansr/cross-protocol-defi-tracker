@@ -5,6 +5,103 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@0no-co/graphql.web@npm:^1.0.13, @0no-co/graphql.web@npm:^1.0.5":
+  version: 1.2.0
+  resolution: "@0no-co/graphql.web@npm:1.2.0"
+  peerDependencies:
+    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
+  peerDependenciesMeta:
+    graphql:
+      optional: true
+  checksum: 4d5a54b93e6024b7d476e94b991e4e4ebc4ecb97e4ce886f76889741f5e419b587bedc6a00488753069534d8ae3e4de2e901ad58506ba2f74eeb8642edccc4ca
+  languageName: node
+  linkType: hard
+
+"@0no-co/graphqlsp@npm:^1.12.13":
+  version: 1.15.0
+  resolution: "@0no-co/graphqlsp@npm:1.15.0"
+  dependencies:
+    "@gql.tada/internal": ^1.0.0
+    graphql: ^15.5.0 || ^16.0.0 || ^17.0.0
+  peerDependencies:
+    graphql: ^15.5.0 || ^16.0.0 || ^17.0.0
+    typescript: ^5.0.0
+  checksum: 8a5252f1c350c1a4f0d72b58eda6afb8b342b353d0754d89653ed030049a626236d0ee4a70bdda167a166fb588c1d0d11cb49f108b796f8cba3e600f6a195593
+  languageName: node
+  linkType: hard
+
+"@aave/client@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@aave/client@npm:0.4.0"
+  dependencies:
+    "@aave/graphql": 0.4.0
+    "@aave/types": 0.1.0
+    "@urql/core": ^5.2.0
+    graphql: ^16.11.0
+  peerDependencies:
+    "@privy-io/server-auth": ^1.28.8
+    ethers: ^6.14.4
+    thirdweb: ^5.105.25
+    viem: ^2.31.6
+  peerDependenciesMeta:
+    "@privy-io/server-auth":
+      optional: true
+    ethers:
+      optional: true
+    thirdweb:
+      optional: true
+    viem:
+      optional: true
+  checksum: bcbc23f48c39c2a909aa3ae1223561514f5df74f42e17601d99847709763c97a61929c574e5989b217a6405b5b1f9e0d1178fadb34531d6fdccc6fc596e68ca2
+  languageName: node
+  linkType: hard
+
+"@aave/contract-helpers@npm:^1.36.1":
+  version: 1.36.1
+  resolution: "@aave/contract-helpers@npm:1.36.1"
+  dependencies:
+    isomorphic-unfetch: ^3.1.0
+  peerDependencies:
+    bignumber.js: ^9.x
+    ethers: ^5.x
+    reflect-metadata: ^0.1.x
+    tslib: ^2.4.x
+  checksum: bf80cc4aba1633c9a476e827892c1d677867e2e3e2c6fe504bdb5c95123c8140d81f3d6574bbbe0fbca7138c6d34c96d5ab5483f2946e44c3c26010571a74901
+  languageName: node
+  linkType: hard
+
+"@aave/graphql@npm:0.4.0":
+  version: 0.4.0
+  resolution: "@aave/graphql@npm:0.4.0"
+  dependencies:
+    "@aave/types": 0.1.0
+    gql.tada: ^1.8.11
+    graphql: ^16.11.0
+    type-fest: ^4.41.0
+  checksum: 24b8e02ede6efa5b406c5616378cafba7275c718f8cabeb27c1077483e5d62af748d96c09bb45c33d88f1b557c5833cb4b91afe6c6ea7b16d341d414a0329578
+  languageName: node
+  linkType: hard
+
+"@aave/math-utils@npm:^1.36.1":
+  version: 1.36.1
+  resolution: "@aave/math-utils@npm:1.36.1"
+  peerDependencies:
+    bignumber.js: ^9.x
+    tslib: ^2.4.x
+  checksum: 2d65de196b231611838f2d491807c047221a328614f4a77afcd895a6ad55e9bfbe1c0cbf05b27033f664133076b669eedf58f4cf8286b465ab34781a262b10f6
+  languageName: node
+  linkType: hard
+
+"@aave/types@npm:0.1.0":
+  version: 0.1.0
+  resolution: "@aave/types@npm:0.1.0"
+  dependencies:
+    neverthrow: ^8.2.0
+    type-fest: ^4.41.0
+  checksum: ca73e54ce0d8a6a9d6a1b703054f13d05e4944219951995fcb071e238e7dad3bc0c76be749ff536c5eafc5a72a437989f581e244c51f75a84989122ef00b5f86
+  languageName: node
+  linkType: hard
+
 "@adraffy/ens-normalize@npm:1.10.0":
   version: 1.10.0
   resolution: "@adraffy/ens-normalize@npm:1.10.0"
@@ -1222,6 +1319,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@bgd-labs/aave-address-book@npm:^4.28.2":
+  version: 4.28.2
+  resolution: "@bgd-labs/aave-address-book@npm:4.28.2"
+  peerDependencies:
+    viem: ^2.23.5
+  checksum: f16bd952bfaf44453c5042ecbe5c260a62418a4553cd67c0e1f5b6f42eac166bbdbb1d2b27bf275b6dc7b410c6c17177c60a018f62482820042e00ba383a40f1
+  languageName: node
+  linkType: hard
+
 "@chainsafe/is-ip@npm:^2.0.1":
   version: 2.1.0
   resolution: "@chainsafe/is-ip@npm:2.1.0"
@@ -1803,6 +1909,40 @@ __metadata:
   version: 2.1.1
   resolution: "@fastify/busboy@npm:2.1.1"
   checksum: 42c32ef75e906c9a4809c1e1930a5ca6d4ddc8d138e1a8c8ba5ea07f997db32210617d23b2e4a85fe376316a41a1a0439fc6ff2dedf5126d96f45a9d80754fb2
+  languageName: node
+  linkType: hard
+
+"@gql.tada/cli-utils@npm:1.7.1":
+  version: 1.7.1
+  resolution: "@gql.tada/cli-utils@npm:1.7.1"
+  dependencies:
+    "@0no-co/graphqlsp": ^1.12.13
+    "@gql.tada/internal": 1.0.8
+    graphql: ^15.5.0 || ^16.0.0 || ^17.0.0
+  peerDependencies:
+    "@0no-co/graphqlsp": ^1.12.13
+    "@gql.tada/svelte-support": 1.0.1
+    "@gql.tada/vue-support": 1.0.1
+    graphql: ^15.5.0 || ^16.0.0 || ^17.0.0
+    typescript: ^5.0.0
+  peerDependenciesMeta:
+    "@gql.tada/svelte-support":
+      optional: true
+    "@gql.tada/vue-support":
+      optional: true
+  checksum: d4a133386367f1d788f8a77c9b761cc58eb42b8ce8b3ed6158972416ca5061ccb2f9c310d105c1415abd35c29e65365e64bd614b988a3cce44a042e9eadd438f
+  languageName: node
+  linkType: hard
+
+"@gql.tada/internal@npm:1.0.8, @gql.tada/internal@npm:^1.0.0":
+  version: 1.0.8
+  resolution: "@gql.tada/internal@npm:1.0.8"
+  dependencies:
+    "@0no-co/graphql.web": ^1.0.5
+  peerDependencies:
+    graphql: ^15.5.0 || ^16.0.0 || ^17.0.0
+    typescript: ^5.0.0
+  checksum: 8046283fa29e382c2a56ce293cb1aeb6a864cfab0f5476e22faf6e1d52a6e89a04a34bcd0342744bd2835bceb9d555c9965b3f23102bce7e4d7d11ce7d5fb8c6
   languageName: node
   linkType: hard
 
@@ -3789,6 +3929,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rollup/rollup-linux-x64-gnu@npm:^4.24.0":
+  version: 4.49.0
+  resolution: "@rollup/rollup-linux-x64-gnu@npm:4.49.0"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
 "@rtsao/scc@npm:^1.1.0":
   version: 1.1.0
   resolution: "@rtsao/scc@npm:1.1.0"
@@ -4644,6 +4791,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ss/nextjs@workspace:packages/nextjs"
   dependencies:
+    "@aave/client": ^0.4.0
+    "@aave/contract-helpers": ^1.36.1
+    "@aave/math-utils": ^1.36.1
+    "@bgd-labs/aave-address-book": ^4.28.2
     "@ethersproject/providers": ^5.7.2
     "@heroicons/react": ^2.1.5
     "@rainbow-me/rainbowkit": 2.2.7
@@ -5874,6 +6025,16 @@ __metadata:
   version: 1.11.1
   resolution: "@unrs/resolver-binding-win32-x64-msvc@npm:1.11.1"
   conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@urql/core@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "@urql/core@npm:5.2.0"
+  dependencies:
+    "@0no-co/graphql.web": ^1.0.13
+    wonka: ^6.3.2
+  checksum: 89c1959abd9230ba06ed5dc4cc5ea6585101c4b0c12894ddbdd1ec36d76b70799b819b999cbcaf154b6f9903eb6c2ba8eef6dff447bc5c9c1870878748868e85
   languageName: node
   linkType: hard
 
@@ -10491,6 +10652,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gql.tada@npm:^1.8.11":
+  version: 1.8.13
+  resolution: "gql.tada@npm:1.8.13"
+  dependencies:
+    "@0no-co/graphql.web": ^1.0.5
+    "@0no-co/graphqlsp": ^1.12.13
+    "@gql.tada/cli-utils": 1.7.1
+    "@gql.tada/internal": 1.0.8
+  peerDependencies:
+    typescript: ^5.0.0
+  bin:
+    gql-tada: bin/cli.js
+    gql.tada: bin/cli.js
+  checksum: 593234aac974f4a67f192d5ca971ab40edcc580c70b4780369d236a1f16c6607a3b14e60dcdd7a4cd745dca19199da774f46646416b4ecaa73656e767a66d750
+  languageName: node
+  linkType: hard
+
 "graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0, graceful-fs@npm:^4.2.10, graceful-fs@npm:^4.2.11, graceful-fs@npm:^4.2.4, graceful-fs@npm:^4.2.6, graceful-fs@npm:^4.2.9":
   version: 4.2.11
   resolution: "graceful-fs@npm:4.2.11"
@@ -10502,6 +10680,13 @@ __metadata:
   version: 1.4.0
   resolution: "graphemer@npm:1.4.0"
   checksum: bab8f0be9b568857c7bec9fda95a89f87b783546d02951c40c33f84d05bb7da3fd10f863a9beb901463669b6583173a8c8cc6d6b306ea2b9b9d5d3d943c3a673
+  languageName: node
+  linkType: hard
+
+"graphql@npm:^15.5.0 || ^16.0.0 || ^17.0.0, graphql@npm:^16.11.0":
+  version: 16.11.0
+  resolution: "graphql@npm:16.11.0"
+  checksum: 65bc206edbe980f2759a8e4cf324873f75a66ab48263961472716e50127ae446739be20f926bb7f036a8d199bd4de072f684fd147c285bd6ba965d98cebb6200
   languageName: node
   linkType: hard
 
@@ -11456,6 +11641,16 @@ __metadata:
   version: 1.2.1
   resolution: "iso-url@npm:1.2.1"
   checksum: 1af98c4ed6a39598407fd8c3c13e997c978985f477af2be3390d2aa3e422b4b5992ffbb0dac68656b165c71850fff748ac1309d29d4f2a728707d76bf0f98557
+  languageName: node
+  linkType: hard
+
+"isomorphic-unfetch@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "isomorphic-unfetch@npm:3.1.0"
+  dependencies:
+    node-fetch: ^2.6.1
+    unfetch: ^4.2.0
+  checksum: 82b92fe4ec2823a81ab0fc0d11bd94d710e6f9a940d56b3cba31896d4345ec9ffc7949f4ff31ebcae84f6b95f7ebf3474c4c7452b834eb4078ea3f2c37e459c5
   languageName: node
   linkType: hard
 
@@ -13514,6 +13709,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"neverthrow@npm:^8.2.0":
+  version: 8.2.0
+  resolution: "neverthrow@npm:8.2.0"
+  dependencies:
+    "@rollup/rollup-linux-x64-gnu": ^4.24.0
+  dependenciesMeta:
+    "@rollup/rollup-linux-x64-gnu":
+      optional: true
+  checksum: fc226439241ed721a7df84bae674c4a6804c598dc85c6dd7d162c494f503f78bc080e36bf763b85cf9566bc820eebc2074aa93982ed713e2a0d672b94576a0ac
+  languageName: node
+  linkType: hard
+
 "next-nprogress-bar@npm:^2.3.13":
   version: 2.4.7
   resolution: "next-nprogress-bar@npm:2.4.7"
@@ -13636,7 +13843,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-fetch@npm:^2.6.7, node-fetch@npm:^2.7.0":
+"node-fetch@npm:^2.6.1, node-fetch@npm:^2.6.7, node-fetch@npm:^2.7.0":
   version: 2.7.0
   resolution: "node-fetch@npm:2.7.0"
   dependencies:
@@ -17259,6 +17466,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"unfetch@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "unfetch@npm:4.2.0"
+  checksum: 6a4b2557e1d921eaa80c4425ce27a404945ec26491ed06e62598f333996a91a44c7908cb26dc7c2746d735762b13276cf4aa41829b4c8f438dde63add3045d7a
+  languageName: node
+  linkType: hard
+
 "unique-filename@npm:^4.0.0":
   version: 4.0.0
   resolution: "unique-filename@npm:4.0.0"
@@ -17982,6 +18196,13 @@ __metadata:
   dependencies:
     string-width: ^4.0.0
   checksum: 03db6c9d0af9329c37d74378ff1d91972b12553c7d72a6f4e8525fe61563fa7adb0b9d6e8d546b7e059688712ea874edd5ded475999abdeedf708de9849310e0
+  languageName: node
+  linkType: hard
+
+"wonka@npm:^6.3.2":
+  version: 6.3.5
+  resolution: "wonka@npm:6.3.5"
+  checksum: bd9f4330664ea971ddbc762275c081d5a635bcebd1c567211d43278b925f3394ad454bb33a0ef5e8beadfaad552cdbc92c018dfb96350f3895341998efa5f521
   languageName: node
   linkType: hard
 

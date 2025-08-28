@@ -8,14 +8,8 @@ import {
   safeWallet,
   walletConnectWallet,
 } from "@rainbow-me/rainbowkit/wallets";
-import { rainbowkitBurnerWallet } from "burner-connector";
-import { arbitrumNitro } from "~~/utils/scaffold-stylus/supportedChains";
 
 import scaffoldConfig from "~~/scaffold.config";
-
-rainbowkitBurnerWallet.rpcUrls = {
-  [arbitrumNitro.id]: arbitrumNitro.rpcUrls.default.http[0],
-};
 
 const wallets = [
   braveWallet,
