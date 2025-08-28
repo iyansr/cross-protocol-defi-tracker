@@ -70,18 +70,18 @@ const Home: NextPage = () => {
             <label className="label">
               <span className="label-text">Add New Wallet</span>
             </label>
-            <div className="flex gap-2">
+            <div className="flex gap-2 flex-col md:flex-row">
               <input
                 type="text"
                 placeholder="Enter wallet address (0x...)"
-                className="input input-bordered flex-1"
+                className="input input-bordered md:flex-1"
                 value={newWalletAddress}
                 onChange={e => setNewWalletAddress(e.target.value)}
               />
               <input
                 type="text"
                 placeholder="Label (optional)"
-                className="input input-bordered flex-1"
+                className="input input-bordered md:flex-1"
                 value={newWalletLabel}
                 onChange={e => setNewWalletLabel(e.target.value)}
               />
@@ -106,9 +106,9 @@ const Home: NextPage = () => {
             <label className="label">
               <span className="label-text">Select Active Wallet</span>
             </label>
-            <div className="flex gap-2">
+            <div className="flex gap-2 md:flex-row flex-col">
               <select
-                className="select select-bordered flex-1"
+                className="select select-bordered md:flex-1"
                 value={activeWallet || ""}
                 onChange={e => setActiveWallet(e.target.value || null)}
               >
